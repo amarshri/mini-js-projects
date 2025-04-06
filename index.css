@@ -7,8 +7,7 @@
 .con{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(135deg,#0a0552,#6e82ad,#ccad77,#9b606e ,#5249c4,#adc5f9,#b2949b);
-    padding-top: 10px;
+     background-color:#0a0552; /*,#6e82ad,#ccad77,#9b606e ,#5249c4,#adc5f9,#b2949b); */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -19,13 +18,13 @@
     width: 80%;
     height: 80px;
     font-size: 1.5rem;
-    background-color: rgb(198, 207, 240);
+    background-color: rgb(186, 219, 235);
     border-radius: 30px;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 3px solid #0a0552;
+    border: 4px solid antiquewhite;
 }
 a{
     color: #0a0552;
