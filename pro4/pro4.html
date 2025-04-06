@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pro4.css">
+</head>
+<body>
+<div class="con">
+    <h1>Number guessing game</h1>
+    <div class="wrapper">
+        <p>Try and guess a rendom number between 1 to 100.</p>
+        <p>You have 10 attempts to guess the right number.</p>
+        </br>
+
+     <form class="form">
+        <label for="guessfield" id="guess">Guesss a number</label>
+        <input type="text" id="guessfield" class="guessfield">
+        <input type="submit" id="sub" value="Submit guess"  class="guesssubmit">
+     </form>
+
+     <div class="result">
+        <p>Previous guesses: <span class ="guesses"></span></p>
+        <p>Guesses remaining: <span class ="lastresults">10</span></p>
+        <p class="lower"></p>
+     </div>
+
+    </div>
+    
+</div>
+</body>
+<script src="pro4.js"></script>
+</html>
