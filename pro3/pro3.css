@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body{
+    background-color: rgb(2, 2, 45);
+    color: antiquewhite;
+}
+.con{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.clock{
+    width: 150px;
+    background-color: beige;
+    height: 45px;
+    margin-top: 10px;
+    border-radius: 30px;
+    color: rgb(6, 6, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+.banner{
+    border: 2px solid rgb(205, 231, 250);
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
